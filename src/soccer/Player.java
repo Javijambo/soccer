@@ -43,13 +43,7 @@ public class Player implements Serializable {
 		super();
 	}
 	
-	public Player(String name, String goals, String country, String age) {
-		super();
-		this.name = name;
-		this.goals = goals;
-		this.country = country;
-		this.age = age;
-	}
+	
 	
 	public int getId() {
 		return id;
